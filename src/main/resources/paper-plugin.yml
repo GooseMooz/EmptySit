@@ -1,0 +1,4 @@
+name: EmptySit
+version: '1.0'
+main: smp.plugin.goosemooz.EmptySit
+api-version: '1.20'
