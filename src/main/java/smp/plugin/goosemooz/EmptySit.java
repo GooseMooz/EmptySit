@@ -15,7 +15,6 @@ public final class EmptySit extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
         Bukkit.getPluginManager().registerEvents(this, this);
         getCommandMap().register("", new SitCommand("sit"));
     }
